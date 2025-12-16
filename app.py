@@ -38,5 +38,12 @@ def settings():
     """Displays user management page."""
     return render_template('settings.html')
 
+
+@app.route("/profile")
+def profile():
+    """Displays user management page."""
+    return render_template('profile.html')
+
+
 if __name__ == "__main__":
     app.run()
